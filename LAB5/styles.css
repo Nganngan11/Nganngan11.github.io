@@ -1,0 +1,56 @@
+/* span#id1 {
+    color: red;
+}
+.highlight {
+    background-color: yellow;
+    color:blue;
+}
+#id2{
+    color: green;
+} */
+ span+p{
+    font-size: italic;
+    font-weight: bold;
+}
+div.item > a{
+    color: green;
+    font-weight: bold;
+}
+.red{
+    color:red;
+}
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
+.highlight{
+    color:blue;
+    background-color: yellow;
+}
+.red{
+    color:red;
+}
+p[mycustomtitle]{
+    color: green;
+}
+p[mycustomtitle="test"]{
+    color: orange;
+}
+h1, p{
+    color: green;
+}
+p:hover{
+    color: green;
+    text-decoration: underline;
+}
+a:visited{
+    color:red;
+}
+a:link{
+    color:brown;
+}
+ul:active{
+    background: yellow;
+}
